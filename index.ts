@@ -58,7 +58,7 @@ app.get('/pools/past24H', async (req, res) => {
   let past24H = new Date(now.getTime() - 1000 * 60 * 60 * 24);
 
   const data = await pool.query(
-    'select sum(amount_in) as total_amount_in, sum(amount_out) as total_amount_out, pool_id, dex from arbitoor_txns where blocktime between $1 and $2 group by dex, pool_id;',
+    'select sum(amount_in) as total_amount_in, token_in, sum(amount_out) as total_amount_out, token_out, pool_id, dex from arbitoor_txns where blocktime between $1 and $2 group by dex, pool_id, token_in, token_out;',
     [past24H.getTime(), now.getTime()]
   );
 
