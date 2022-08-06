@@ -1,0 +1,1061 @@
+{
+  "tokensMap": [
+    {
+      "address": "adtoken.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/adtoken.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/adtoken.near.jpeg",
+      "name": "AD#7: Roketo is going to the MOON! https://roke.to",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "AD",
+      "tags": []
+    },
+    {
+      "address": "atocha-token.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/atocha-token.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/atocha-token.near.svg",
+      "name": "Atocha Coin",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "ATO",
+      "tags": []
+    },
+    {
+      "address": "aurora",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/aurora",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/aurora.png",
+      "name": "Ether",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "ETH",
+      "tags": []
+    },
+    {
+      "address": "berryclub.ek.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/berryclub.ek.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/berryclub.ek.near.svg",
+      "name": "Banana",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "BANANA",
+      "tags": []
+    },
+    {
+      "address": "coin.asac.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/coin.asac.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/coin.asac.near.svg",
+      "name": "Antisocial Ape Coin",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "$ASAC",
+      "tags": []
+    },
+    {
+      "address": "dbio.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/dbio.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/dbio.near.svg",
+      "name": "Debio",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "DBIO",
+      "tags": []
+    },
+    {
+      "address": "elixir.l2e.near",
+      "decimals": 0,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/elixir.l2e.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/elixir.l2e.near.png",
+      "name": "LandtoEmpire.com game ELIXIR!",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "ELIXIR",
+      "tags": []
+    },
+    {
+      "address": "farm.berryclub.ek.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/farm.berryclub.ek.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/farm.berryclub.ek.near.svg",
+      "name": "Cucumber",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "CUCUMBER",
+      "tags": []
+    },
+    {
+      "address": "ft.metafoxonry.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/ft.metafoxonry.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/ft.metafoxonry.near.png",
+      "name": "MFOX",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "MFOX",
+      "tags": []
+    },
+    {
+      "address": "ft.nekotoken.near",
+      "decimals": 0,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/ft.nekotoken.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/ft.nekotoken.near.svg",
+      "name": "NEKO",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "NEKO",
+      "tags": []
+    },
+    {
+      "address": "gear.enleap.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/gear.enleap.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/gear.enleap.near.png",
+      "name": "GEAR",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "GEAR",
+      "tags": []
+    },
+    {
+      "address": "gems.l2e.near",
+      "decimals": 4,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/gems.l2e.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/gems.l2e.near.png",
+      "name": "LandtoEmpire.com game GEM!",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "GEM",
+      "tags": []
+    },
+    {
+      "address": "gold.l2e.near",
+      "decimals": 0,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/gold.l2e.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/gold.l2e.near.png",
+      "name": "LandtoEmpire.com game GOLD!",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "GOLD",
+      "tags": []
+    },
+    {
+      "address": "linear-protocol.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/linear-protocol.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/linear-protocol.near.svg",
+      "name": "LiNEAR",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "LINEAR",
+      "tags": []
+    },
+    {
+      "address": "meta-pool.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/meta-pool.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/meta-pool.near.svg",
+      "name": "Staked NEAR",
+      "nearEnv": "mainnet",
+      "reference": "https://metapool.app",
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "STNEAR",
+      "tags": []
+    },
+    {
+      "address": "meta-token.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/meta-token.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/meta-token.near.svg",
+      "name": "Meta Token",
+      "nearEnv": "mainnet",
+      "reference": "https://metapool.app",
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "$META",
+      "tags": []
+    },
+    {
+      "address": "myriadcore.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/myriadcore.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/myriadcore.near.svg",
+      "name": "Myria",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "MYRIA",
+      "tags": []
+    },
+    {
+      "address": "nexp.near",
+      "decimals": 4,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/nexp.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/nexp.near.png",
+      "name": "NEXP",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "NEXP",
+      "tags": []
+    },
+    {
+      "address": "pixeltoken.near",
+      "decimals": 6,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/pixeltoken.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/pixeltoken.near.png",
+      "name": "Pixeltoken",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "PXT",
+      "tags": []
+    },
+    {
+      "address": "skyward-pixeltoken.near",
+      "decimals": 6,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/skyward-pixeltoken.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/skyward-pixeltoken.near.png",
+      "name": "Skyward Wrapped Pixeltoken",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "sPXT",
+      "tags": []
+    },
+    {
+      "address": "token.cheddar.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.cheddar.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.cheddar.near.svg",
+      "name": "Cheddar",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "Cheddar",
+      "tags": []
+    },
+    {
+      "address": "token.jumbo_exchange.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.jumbo_exchange.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.jumbo_exchange.near.svg",
+      "name": "Jumbo Exchange",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "JUMBO",
+      "tags": []
+    },
+    {
+      "address": "token.paras.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.paras.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.paras.near.png",
+      "name": "PARAS",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "PARAS",
+      "tags": []
+    },
+    {
+      "address": "token.pembrock.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.pembrock.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.pembrock.near.svg",
+      "name": "PembRock",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "PEM",
+      "tags": []
+    },
+    {
+      "address": "token.skyward.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.skyward.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.skyward.near.png",
+      "name": "Skyward Finance Token",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "SKYWARD",
+      "tags": []
+    },
+    {
+      "address": "token.v2.ref-finance.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/token.v2.ref-finance.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/token.v2.ref-finance.near.svg",
+      "name": "Ref Finance Token",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "REF",
+      "tags": []
+    },
+    {
+      "address": "usn",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/usn",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/usn.svg",
+      "name": "USN",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "USN",
+      "tags": []
+    },
+    {
+      "address": "utopia.secretskelliessociety.near",
+      "decimals": 8,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/utopia.secretskelliessociety.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/utopia.secretskelliessociety.near.svg",
+      "name": "Utopia",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "UTO",
+      "tags": []
+    },
+    {
+      "address": "v3.oin_finance.near",
+      "decimals": 8,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/v3.oin_finance.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/v3.oin_finance.near.png",
+      "name": "nUSDO",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "nUSDO",
+      "tags": []
+    },
+    {
+      "address": "wrap.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/wrap.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/wrap.near.svg",
+      "name": "Wrapped NEAR fungible token",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "wNEAR",
+      "tags": []
+    },
+    {
+      "address": "xtoken.ref-finance.near",
+      "decimals": 18,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/xtoken.ref-finance.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/xtoken.ref-finance.near.svg",
+      "name": "xRef Finance Token",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "xREF",
+      "tags": []
+    },
+    {
+      "address": "0316eb71485b0ab14103307bf65a021042c6d380.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/0316eb71485b0ab14103307bf65a021042c6d380.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/0316eb71485b0ab14103307bf65a021042c6d380.factory.bridge.near.svg",
+      "name": "Huobi BTC",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "HBTC",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near.svg",
+      "name": "Basic Attention Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "BAT",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near.png",
+      "name": "1INCH Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "1INCH",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "1ab43204a195a0fd37edec621482afd3792ef90b.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/1ab43204a195a0fd37edec621482afd3792ef90b.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/1ab43204a195a0fd37edec621482afd3792ef90b.factory.bridge.near.svg",
+      "name": "Aurigami Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "PLY",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near.svg",
+      "name": "Uniswap",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "UNI",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+      "decimals": 8,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near.svg",
+      "name": "Wrapped BTC",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "WBTC",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "3ea8ea4237344c9931214796d9417af1a1180770.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/3ea8ea4237344c9931214796d9417af1a1180770.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/3ea8ea4237344c9931214796d9417af1a1180770.factory.bridge.near.svg",
+      "name": "Flux Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "FLX",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near.svg",
+      "name": "Wootrade Network",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "WOO",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "501ace9c35e60f03a2af4d484f49f9b1efde9f40.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/501ace9c35e60f03a2af4d484f49f9b1efde9f40.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/501ace9c35e60f03a2af4d484f49f9b1efde9f40.factory.bridge.near.svg",
+      "name": "solace",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "SOLACE",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near.svg",
+      "name": "ChainLink Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "LINK",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "52a047ee205701895ee06a375492490ec9c597ce.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/52a047ee205701895ee06a375492490ec9c597ce.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/52a047ee205701895ee06a375492490ec9c597ce.factory.bridge.near.svg",
+      "name": "Pulse",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "PULSE",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near.svg",
+      "name": "Dai Stablecoin",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "DAI",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "6f259637dcd74c767781e37bc6133cd6a68aa161.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/6f259637dcd74c767781e37bc6133cd6a68aa161.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/6f259637dcd74c767781e37bc6133cd6a68aa161.factory.bridge.near.png",
+      "name": "HuobiToken",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "HT",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "9aeb50f542050172359a0e1a25a9933bc8c01259.factory.bridge.near",
+      "decimals": 8,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/9aeb50f542050172359a0e1a25a9933bc8c01259.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/9aeb50f542050172359a0e1a25a9933bc8c01259.factory.bridge.near.svg",
+      "name": "oinfinance",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "OIN",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+      "decimals": 6,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near.svg",
+      "name": "USD Coin",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "USDC",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near.svg",
+      "name": "Aurora",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "AURORA",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "b8919522331c59f5c16bdfaa6a121a6e03a91f62.factory.bridge.near",
+      "decimals": 6,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/b8919522331c59f5c16bdfaa6a121a6e03a91f62.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/b8919522331c59f5c16bdfaa6a121a6e03a91f62.factory.bridge.near.svg",
+      "name": "bHome",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "bHOME",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "bed4ab0019ff361d83ddeb74883dac8a70f5ea1e.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/bed4ab0019ff361d83ddeb74883dac8a70f5ea1e.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/bed4ab0019ff361d83ddeb74883dac8a70f5ea1e.factory.bridge.near.png",
+      "name": "MerchDAO",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "MRCH",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near.png",
+      "name": "Wrapped Ether",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "WETH",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near.png",
+      "name": "Graph Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "GRT",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near.svg",
+      "name": "HAPI",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "HAPI",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+      "decimals": 6,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near.svg",
+      "name": "Tether USD",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "USDT",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "de30da39c46104798bb5aa3fe8b9e0e1f348163f.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/de30da39c46104798bb5aa3fe8b9e0e1f348163f.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/de30da39c46104798bb5aa3fe8b9e0e1f348163f.factory.bridge.near.png",
+      "name": "Gitcoin",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "GTC",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near",
+      "decimals": 18,
+      "extensions": {
+        "bridgeContract": "factory.bridge.near",
+        "bridgeType": "rainbow",
+        "explorer": "https://nearblocks.io/address/f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near.svg",
+      "name": "Octopus Network Token",
+      "nearEnv": "mainnet",
+      "reference": "",
+      "reference_hash": "",
+      "spec": "ft-1.0.0",
+      "symbol": "OCT",
+      "tags": ["rainbow"]
+    },
+    {
+      "address": "abr.a11bd.near",
+      "decimals": 24,
+      "extensions": {
+        "explorer": "https://nearblocks.io/address/abr.a11bd.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/abr.a11bd.near.svg",
+      "name": "ABR",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "ABR",
+      "tags": []
+    },
+    {
+      "address": "celo.token.a11bd.near",
+      "decimals": 24,
+      "extensions": {
+        "bridgeContract": "token.a11bd.near",
+        "bridgeType": "allbridge",
+        "explorer": "https://nearblocks.io/address/celo.token.a11bd.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/celo.token.a11bd.near.svg",
+      "name": "Celo",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "CELO",
+      "tags": ["allbridge"]
+    },
+    {
+      "address": "cusd.token.a11bd.near",
+      "decimals": 24,
+      "extensions": {
+        "bridgeContract": "token.a11bd.near",
+        "bridgeType": "allbridge",
+        "explorer": "https://nearblocks.io/address/cusd.token.a11bd.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/cusd.token.a11bd.near.svg",
+      "name": "Celo Dollar",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "cUSD",
+      "tags": ["allbridge"]
+    },
+    {
+      "address": "sol.token.a11bd.near",
+      "decimals": 24,
+      "extensions": {
+        "bridgeContract": "token.a11bd.near",
+        "bridgeType": "allbridge",
+        "explorer": "https://nearblocks.io/address/sol.token.a11bd.near",
+        "website": ""
+      },
+      "icon": "",
+      "logoURI": "https://raw.githubusercontent.com/tonic-foundation/token-list/master/images/sol.token.a11bd.near.svg",
+      "name": "Solana",
+      "nearEnv": "mainnet",
+      "reference": null,
+      "reference_hash": null,
+      "spec": "ft-1.0.0",
+      "symbol": "SOL",
+      "tags": ["allbridge"]
+    }
+  ]
+}

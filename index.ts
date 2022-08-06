@@ -1,11 +1,21 @@
 import express from 'express';
 import cors from 'cors';
+import Big from 'big.js';
+// @ts-ignore
+import localData from './data/data.json';
 
 import { Pool } from 'pg';
 
 export const pool = new Pool({
   connectionString: 'postgres://ubuntu:root@localhost:5432/ubuntu',
 });
+
+const tokenList = localData.tokensMap as Array<any>;
+
+const tokensMap = tokenList.reduce((map, item) => {
+  map.set(item.address, item);
+  return map;
+}, new Map<string, any>());
 
 /** EXPRESS SERVER */
 
@@ -65,16 +75,147 @@ app.get('/pools/past24H', async (req, res) => {
   res.send(data.rows);
 });
 
-app.get('/tokens/past24H', async (req, res) => {
+// Fetches 24H token volume
+app.get('/tokens-volume/past-24H', async (req, res) => {
   let now = new Date();
   let past24H = new Date(now.getTime() - 1000 * 60 * 60 * 24);
 
-  const data = await pool.query(
-    'select sum(amount_in) as total_amount_in, sum(amount_out) as total_amount_out, token_in, token_out from arbitoor_txns where blocktime between $1 and $2 group by token_in, token_out;',
+  const tokensInData = await pool.query(
+    'select sum(amount_in) as total_amount, token_in from arbitoor_txns where blocktime between $1 and $2 group by token_in;',
     [past24H.getTime(), now.getTime()]
   );
 
-  res.send(data.rows);
+  const tokensOutData = await pool.query(
+    'select sum(amount_out) as total_amount, token_out from arbitoor_txns where blocktime between $1 and $2 group by token_out;',
+    [past24H.getTime(), now.getTime()]
+  );
+
+  const tokensResult = tokensInData.rows.concat(tokensOutData.rows);
+
+  const tokensOut = new Map<string, string>();
+
+  for (const row of tokensResult) {
+    const tokenAdd = row.token_in ?? row.token_out;
+    let tokenAmount = new Big(row.total_amount.toString());
+    if (tokensOut.get(tokenAdd)) {
+      tokenAmount.add(new Big(tokensOut.get(tokenAdd) ?? '0'));
+    }
+    tokensOut.set(tokenAdd, tokenAmount.toString());
+  }
+
+  // console.log(tokensOut);
+
+  res.send(Array.from(tokensOut));
+});
+
+// Fetches token volume from beggining
+app.get('/tokens-volume', async (req, res) => {
+  const tokensInData = await pool.query(
+    'select sum(amount_in) as total_amount, token_in from arbitoor_txns group by token_in;'
+  );
+
+  const tokensOutData = await pool.query(
+    'select sum(amount_out) as total_amount, token_out from arbitoor_txns group by token_out;'
+  );
+
+  const tokensResult = tokensInData.rows.concat(tokensOutData.rows);
+
+  const tokensOut = new Map<string, string>();
+
+  for (const row of tokensResult) {
+    const tokenAdd = row.token_in ?? row.token_out;
+    let tokenAmount = new Big(row.total_amount.toString());
+    if (tokensOut.get(tokenAdd)) {
+      tokenAmount.add(new Big(tokensOut.get(tokenAdd) ?? '0'));
+    }
+    tokensOut.set(tokenAdd, tokenAmount.toString());
+  }
+
+  // console.log(tokensOut);
+
+  res.send(Array.from(tokensOut));
+});
+
+// Fetches dexes volume for past 24H
+app.get('/dexes-volume/past-24H', async (req, res) => {
+  let now = new Date();
+  let past24H = new Date(now.getTime() - 1000 * 60 * 60 * 24);
+
+  const result = await pool.query(
+    'select sum(amount_out) as amount_out, sum(amount_in) as amount_in, token_in, token_out, dex from arbitoor_txns where blocktime between $1 and $2  group by dex, token_in, token_out;',
+    [past24H.getTime(), now.getTime()]
+  );
+
+  const dexesOut = new Map<string, string>();
+
+  for (const row of result.rows) {
+    const tokenIn = row.token_in;
+    const tokenOut = row.token_out;
+    const amountIn = row.amount_in;
+    const amountOut = row.amount_out;
+    const dex = row.dex;
+
+    let tokenInDecimals = tokensMap.get(tokenIn)?.decimals ?? 1;
+    let tokenOutDecimals = tokensMap.get(tokenOut)?.decimals ?? 1;
+
+    let totalTokensAmountIn = new Big(amountIn).mul(
+      new Big('10').pow(-tokenInDecimals)
+    );
+    let totalTokensAmountOut = new Big(amountOut).mul(
+      new Big('10').pow(-tokenOutDecimals)
+    );
+
+    let totalTokensAmount = totalTokensAmountIn.add(totalTokensAmountOut);
+
+    if (dexesOut.get(dex)) {
+      totalTokensAmount.add(new Big(dexesOut.get(dex) ?? '0'));
+    }
+
+    dexesOut.set(dex, totalTokensAmount.toString());
+  }
+
+  // console.log(dexesOut);
+
+  res.send(Array.from(dexesOut));
+});
+
+// Fetches dexes volume from beg
+app.get('/dexes-volume', async (req, res) => {
+  const result = await pool.query(
+    'select sum(amount_out) as amount_out, sum(amount_in) as amount_in, token_in, token_out, dex from arbitoor_txns group by dex, token_in, token_out;'
+  );
+
+  const dexesOut = new Map<string, string>();
+
+  for (const row of result.rows) {
+    const tokenIn = row.token_in;
+    const tokenOut = row.token_out;
+    const amountIn = row.amount_in;
+    const amountOut = row.amount_out;
+    const dex = row.dex;
+
+    let tokenInDecimals = tokensMap.get(tokenIn)?.decimals ?? 1;
+    let tokenOutDecimals = tokensMap.get(tokenOut)?.decimals ?? 1;
+
+    let totalTokensAmountIn = new Big(amountIn).mul(
+      new Big('10').pow(-tokenInDecimals)
+    );
+    let totalTokensAmountOut = new Big(amountOut).mul(
+      new Big('10').pow(-tokenOutDecimals)
+    );
+
+    let totalTokensAmount = totalTokensAmountIn.add(totalTokensAmountOut);
+
+    if (dexesOut.get(dex)) {
+      totalTokensAmount.add(new Big(dexesOut.get(dex) ?? '0'));
+    }
+
+    dexesOut.set(dex, totalTokensAmount.toString());
+  }
+
+  // console.log(dexesOut);
+
+  res.send(Array.from(dexesOut));
 });
 
 app.listen(5000, () => console.log('Running'));
