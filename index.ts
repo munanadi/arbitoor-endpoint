@@ -3,6 +3,9 @@ import cors from 'cors';
 import Big from 'big.js';
 // @ts-ignore
 import localData from './data/data.json';
+import { MainnetRpc } from 'near-workspaces';
+import { TokenInfo } from '@tonic-foundation/token-list';
+import { InMemoryProvider } from '@arbitoor/arbitoor-core';
 
 import { Pool } from 'pg';
 
@@ -10,12 +13,14 @@ export const pool = new Pool({
   connectionString: 'postgres://ubuntu:root@localhost:5432/ubuntu',
 });
 
-const tokenList = localData.tokensMap as Array<any>;
+const tokenList = localData.tokensMap as Array<TokenInfo>;
 
 const tokensMap = tokenList.reduce((map, item) => {
   map.set(item.address, item);
   return map;
-}, new Map<string, any>());
+}, new Map<string, TokenInfo>());
+
+const provider = new InMemoryProvider(MainnetRpc, tokensMap);
 
 /** EXPRESS SERVER */
 
@@ -155,8 +160,14 @@ app.get('/dexes-volume/past-24H', async (req, res) => {
     const amountOut = row.amount_out;
     const dex = row.dex;
 
-    let tokenInDecimals = tokensMap.get(tokenIn)?.decimals ?? 1;
-    let tokenOutDecimals = tokensMap.get(tokenOut)?.decimals ?? 1;
+    let tokenInDecimals =
+      tokensMap.get(tokenIn)?.decimals ??
+      (await provider.getTokenMetadata(tokenIn))?.decimals ??
+      1;
+    let tokenOutDecimals =
+      tokensMap.get(tokenOut)?.decimals ??
+      (await provider.getTokenMetadata(tokenOut))?.decimals ??
+      1;
 
     let totalTokensAmountIn = new Big(amountIn).mul(
       new Big('10').pow(-tokenInDecimals)
@@ -194,8 +205,14 @@ app.get('/dexes-volume', async (req, res) => {
     const amountOut = row.amount_out;
     const dex = row.dex;
 
-    let tokenInDecimals = tokensMap.get(tokenIn)?.decimals ?? 1;
-    let tokenOutDecimals = tokensMap.get(tokenOut)?.decimals ?? 1;
+    let tokenInDecimals =
+      tokensMap.get(tokenIn)?.decimals ??
+      (await provider.getTokenMetadata(tokenIn))?.decimals ??
+      1;
+    let tokenOutDecimals =
+      tokensMap.get(tokenOut)?.decimals ??
+      (await provider.getTokenMetadata(tokenOut))?.decimals ??
+      1;
 
     let totalTokensAmountIn = new Big(amountIn).mul(
       new Big('10').pow(-tokenInDecimals)
