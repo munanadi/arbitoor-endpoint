@@ -6,7 +6,7 @@
   "scripts": {
     "pm2": "NODE_ENV=production pm2 start dist/app.js -i max",
     "prod": "NODE_ENV=production node dist/app.js",
-    "build": "rm -rf dist && tsc -p tsconfig.json"
+    "build": "rm -rf dist && tsc -p tsconfig.json && cp -r data/ dist/"
   },
   "dependencies": {
     "@tonic-foundation/token-list": "^0.0.7",
